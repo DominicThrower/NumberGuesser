@@ -4,7 +4,7 @@ String Play = "Y";
 
 while (Play == "Y")
 {
-    int chosenNumber = rnd.Next(1, 11);
+    int chosenNumber = rnd.Next(1, 101);
     int guess = 0;
     int guesses = 0;
     Console.WriteLine("Welcome to the Number Guesser!");
